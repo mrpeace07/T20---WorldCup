@@ -1,24 +1,29 @@
-# To-Do List Application with Machine Learning
+T20 Score Prediction Application
 
-This repository contains a To-Do List application built with Streamlit and a machine learning component using XGBoost. The application allows users to manage their tasks and uses XGBoost to predict the completion time for tasks based on various features.
+This repository contains a T20 score prediction application built with Streamlit. The application uses XGBoost to predict the final score of a T20 cricket match based on various match features.
 
-![App Screenshot](CAPTURE.png)
+![App Screenshot](Capture.png)
 
-## Features
+ Features
 
-- Add, update, and delete tasks
-- Predict task completion time using XGBoost
+- Predict the final score of a T20 match
 - User-friendly interface built with Streamlit
+- Real-time prediction updates
 
-## Installation
 
-### Prerequisites
 
 - Python 3.7+
 - pip (Python package installer)
 
-### Clone the Repository
+ Clone, Install, and Run
 
 ```bash
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
+# Clone the repository
+git clone https://github.com/your-username/t20-score-prediction.git
+cd t20-score-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run app.py
