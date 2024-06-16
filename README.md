@@ -2,7 +2,7 @@ T20 Score Prediction Application
 
 This repository contains a T20 score prediction application built with Streamlit. The application uses XGBoost to predict the final score of a T20 cricket match based on various match features.
 
-![App Screenshot](Capture.png)
+![App Screenshot](Capture.PNG)
 
  Features
 
